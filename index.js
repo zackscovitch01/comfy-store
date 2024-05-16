@@ -10,6 +10,7 @@ import { getElement } from "./src/utils.js";
 
 const init = async () => {
   const products = await fetchProducts();
+
   if (products) {
     // add products to store
     setupStore(products);
