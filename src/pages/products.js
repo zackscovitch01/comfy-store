@@ -20,6 +20,7 @@ const init = async () => {
   setupStore(products);
   display(store, getElement(".products-container"));
   setupSearch(store);
+  setupCompanies(store);
   loading.style.display = "none";
 };
 
