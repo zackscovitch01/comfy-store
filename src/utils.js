@@ -32,6 +32,7 @@ const getStorageItem = (item) => {
   } else {
     storageItem = [];
   }
+  return storageItem;
 };
 const setStorageItem = (name, item) => {
   localStorage.setItem(name, JSON.stringify(item));
